@@ -1,0 +1,194 @@
+KLEPTO engine DEBUG: klepto.c:59:klepto_bind(): se cargará engine.
+KLEPTO engine DEBUG: klepto.c:87:klepto_ciphers(): se consultarán ciphers de engine.
+KLEPTO engine DEBUG: klepto.c:87:klepto_ciphers(): se consultarán ciphers de engine.
+KLEPTO engine DEBUG: klepto.c:80:klepto_init(): se inicializará engine.
+KLEPTO engine DEBUG: klepto.c:87:klepto_ciphers(): se consultarán ciphers de engine.
+CONNECTED(00000003)
+KLEPTO engine DEBUG: klepto.c:87:klepto_ciphers(): se consultarán ciphers de engine.
+KLEPTO engine DEBUG: klepto.c:106:cipher_aes_128_cbc_klepto_init(): se inicializará cipher.
+KLEPTO engine DEBUG: klepto.c:121:cipher_aes_128_cbc_klepto_init(): key != iv != NULL, enc == [01], inicialización de ctx.
+KLEPTO engine DEBUG: klepto.c:129:cipher_aes_128_cbc_klepto_init(): enc = 1
+KLEPTO engine DEBUG: klepto.c:136:cipher_aes_128_cbc_klepto_init(): key = 5CE5E6B820110E603DB93FC6079247A5
+KLEPTO engine DEBUG: klepto.c:156:cipher_aes_128_cbc_klepto_init(): iv = EF513A2A3AC311E4D9113D64C4836E29
+KLEPTO engine DEBUG: klepto.c:173:cipher_aes_128_cbc_klepto_cipher(): se cifrará/decifrará vía cipher.
+KLEPTO engine DEBUG: klepto.c:184:cipher_aes_128_cbc_klepto_cipher(): klepto_ctx->iv = EF513A2A3AC311E4D9113D64C4836E29
+KLEPTO engine DEBUG: klepto.c:185:cipher_aes_128_cbc_klepto_cipher(): klepto_ctx->key = 5CE5E6B820110E603DB93FC6079247A5
+KLEPTO engine DEBUG: klepto.c:187:cipher_aes_128_cbc_klepto_cipher(): pre - entrada: 64 bytes.
+KLEPTO engine DEBUG: klepto.c:187:cipher_aes_128_cbc_klepto_cipher():  0: B80BDA46FE03BB7FC47C9FDDAE838C69
+KLEPTO engine DEBUG: klepto.c:187:cipher_aes_128_cbc_klepto_cipher():  1: 1400000C3AAC76C52C9508ADD9C3DFCA
+KLEPTO engine DEBUG: klepto.c:187:cipher_aes_128_cbc_klepto_cipher():  2: F2F7C4A04F3BA6F111A550C609B08BF2
+KLEPTO engine DEBUG: klepto.c:187:cipher_aes_128_cbc_klepto_cipher():  3: 01FDE0420B0B0B0B0B0B0B0B0B0B0B0B
+KLEPTO engine DEBUG: klepto.c:188:cipher_aes_128_cbc_klepto_cipher(): pre - salida: 64 bytes.
+KLEPTO engine DEBUG: klepto.c:188:cipher_aes_128_cbc_klepto_cipher():  0: B80BDA46FE03BB7FC47C9FDDAE838C69
+KLEPTO engine DEBUG: klepto.c:188:cipher_aes_128_cbc_klepto_cipher():  1: 1400000C3AAC76C52C9508ADD9C3DFCA
+KLEPTO engine DEBUG: klepto.c:188:cipher_aes_128_cbc_klepto_cipher():  2: F2F7C4A04F3BA6F111A550C609B08BF2
+KLEPTO engine DEBUG: klepto.c:188:cipher_aes_128_cbc_klepto_cipher():  3: 01FDE0420B0B0B0B0B0B0B0B0B0B0B0B
+KLEPTO engine DEBUG: klepto.c:192:cipher_aes_128_cbc_klepto_cipher(): se invoca para cifrado de 64 bytes.
+KLEPTO engine DEBUG: klepto.c:200:cipher_aes_128_cbc_klepto_cipher(): post - entrada: 64 bytes.
+KLEPTO engine DEBUG: klepto.c:200:cipher_aes_128_cbc_klepto_cipher():  0: CAE257941E34D7B46B781806115A32B9
+KLEPTO engine DEBUG: klepto.c:200:cipher_aes_128_cbc_klepto_cipher():  1: E01E44BDEBCDBFDA0F10ECC5C94E84AF
+KLEPTO engine DEBUG: klepto.c:200:cipher_aes_128_cbc_klepto_cipher():  2: 91357D8C06298C3D1A795625F1DEE69C
+KLEPTO engine DEBUG: klepto.c:200:cipher_aes_128_cbc_klepto_cipher():  3: 857C8386C045861C17FCC65A8B89B953
+KLEPTO engine DEBUG: klepto.c:201:cipher_aes_128_cbc_klepto_cipher(): post - salida: 64 bytes.
+KLEPTO engine DEBUG: klepto.c:201:cipher_aes_128_cbc_klepto_cipher():  0: CAE257941E34D7B46B781806115A32B9
+KLEPTO engine DEBUG: klepto.c:201:cipher_aes_128_cbc_klepto_cipher():  1: E01E44BDEBCDBFDA0F10ECC5C94E84AF
+KLEPTO engine DEBUG: klepto.c:201:cipher_aes_128_cbc_klepto_cipher():  2: 91357D8C06298C3D1A795625F1DEE69C
+KLEPTO engine DEBUG: klepto.c:201:cipher_aes_128_cbc_klepto_cipher():  3: 857C8386C045861C17FCC65A8B89B953
+KLEPTO engine DEBUG: klepto.c:87:klepto_ciphers(): se consultarán ciphers de engine.
+KLEPTO engine DEBUG: klepto.c:106:cipher_aes_128_cbc_klepto_init(): se inicializará cipher.
+KLEPTO engine DEBUG: klepto.c:121:cipher_aes_128_cbc_klepto_init(): key != iv != NULL, enc == [01], inicialización de ctx.
+KLEPTO engine DEBUG: klepto.c:129:cipher_aes_128_cbc_klepto_init(): enc = 0
+KLEPTO engine DEBUG: klepto.c:136:cipher_aes_128_cbc_klepto_init(): key = C5EEDA58CF3A46634213886CC78FC42E
+KLEPTO engine DEBUG: klepto.c:156:cipher_aes_128_cbc_klepto_init(): iv = 14C805E99088D2684F9665E1020DB0CD
+KLEPTO engine DEBUG: klepto.c:173:cipher_aes_128_cbc_klepto_cipher(): se cifrará/decifrará vía cipher.
+KLEPTO engine DEBUG: klepto.c:184:cipher_aes_128_cbc_klepto_cipher(): klepto_ctx->iv = 14C805E99088D2684F9665E1020DB0CD
+KLEPTO engine DEBUG: klepto.c:185:cipher_aes_128_cbc_klepto_cipher(): klepto_ctx->key = C5EEDA58CF3A46634213886CC78FC42E
+KLEPTO engine DEBUG: klepto.c:187:cipher_aes_128_cbc_klepto_cipher(): pre - entrada: 64 bytes.
+KLEPTO engine DEBUG: klepto.c:187:cipher_aes_128_cbc_klepto_cipher():  0: A7F3078B6BC173E4A68970D4076EE843
+KLEPTO engine DEBUG: klepto.c:187:cipher_aes_128_cbc_klepto_cipher():  1: A7B8387F19EC2442B521CFD413634BD5
+KLEPTO engine DEBUG: klepto.c:187:cipher_aes_128_cbc_klepto_cipher():  2: A4C39F86F51B624C3F296088CD6C7C8B
+KLEPTO engine DEBUG: klepto.c:187:cipher_aes_128_cbc_klepto_cipher():  3: CEA0A30152FE0DD671DCE166A5CB1822
+KLEPTO engine DEBUG: klepto.c:188:cipher_aes_128_cbc_klepto_cipher(): pre - salida: 64 bytes.
+KLEPTO engine DEBUG: klepto.c:188:cipher_aes_128_cbc_klepto_cipher():  0: A7F3078B6BC173E4A68970D4076EE843
+KLEPTO engine DEBUG: klepto.c:188:cipher_aes_128_cbc_klepto_cipher():  1: A7B8387F19EC2442B521CFD413634BD5
+KLEPTO engine DEBUG: klepto.c:188:cipher_aes_128_cbc_klepto_cipher():  2: A4C39F86F51B624C3F296088CD6C7C8B
+KLEPTO engine DEBUG: klepto.c:188:cipher_aes_128_cbc_klepto_cipher():  3: CEA0A30152FE0DD671DCE166A5CB1822
+KLEPTO engine DEBUG: klepto.c:196:cipher_aes_128_cbc_klepto_cipher(): se invoca para decifrado de 64 bytes.
+KLEPTO engine DEBUG: klepto.c:200:cipher_aes_128_cbc_klepto_cipher(): post - entrada: 64 bytes.
+KLEPTO engine DEBUG: klepto.c:200:cipher_aes_128_cbc_klepto_cipher():  0: 3C68EAECF4098493AC93B2E24104EFF6
+KLEPTO engine DEBUG: klepto.c:200:cipher_aes_128_cbc_klepto_cipher():  1: 1400000C46A2C5AA7F8ACAE30E372B06
+KLEPTO engine DEBUG: klepto.c:200:cipher_aes_128_cbc_klepto_cipher():  2: 119DA1026AAC3C7C80530F80E425CFA8
+KLEPTO engine DEBUG: klepto.c:200:cipher_aes_128_cbc_klepto_cipher():  3: D2A779690B0B0B0B0B0B0B0B0B0B0B0B
+KLEPTO engine DEBUG: klepto.c:201:cipher_aes_128_cbc_klepto_cipher(): post - salida: 64 bytes.
+KLEPTO engine DEBUG: klepto.c:201:cipher_aes_128_cbc_klepto_cipher():  0: 3C68EAECF4098493AC93B2E24104EFF6
+KLEPTO engine DEBUG: klepto.c:201:cipher_aes_128_cbc_klepto_cipher():  1: 1400000C46A2C5AA7F8ACAE30E372B06
+KLEPTO engine DEBUG: klepto.c:201:cipher_aes_128_cbc_klepto_cipher():  2: 119DA1026AAC3C7C80530F80E425CFA8
+KLEPTO engine DEBUG: klepto.c:201:cipher_aes_128_cbc_klepto_cipher():  3: D2A779690B0B0B0B0B0B0B0B0B0B0B0B
+---
+Certificate chain
+ 0 s:/C=US/ST=California/L=Mountain View/O=Google LLC/CN=www.google.com
+   i:/C=US/O=Google Trust Services/CN=GTS CA 1O1
+ 1 s:/C=US/O=Google Trust Services/CN=GTS CA 1O1
+   i:/OU=GlobalSign Root CA - R2/O=GlobalSign/CN=GlobalSign
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIFizCCBHOgAwIBAgIQMSyrasIILsACAAAAAGXhCzANBgkqhkiG9w0BAQsFADBC
+MQswCQYDVQQGEwJVUzEeMBwGA1UEChMVR29vZ2xlIFRydXN0IFNlcnZpY2VzMRMw
+EQYDVQQDEwpHVFMgQ0EgMU8xMB4XDTIwMDQyODA3MzgzNloXDTIwMDcyMTA3Mzgz
+NlowaDELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcT
+DU1vdW50YWluIFZpZXcxEzARBgNVBAoTCkdvb2dsZSBMTEMxFzAVBgNVBAMTDnd3
+dy5nb29nbGUuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5bfR
+1AlHSg0G3ldJIxExOM/xT88fKKwXcLvfmzu/8KrsPqJPESF2woyBDfx8K48fhD3s
+wyFrd6u2eXtcIzVVL/8ILLdgwySF0etgbcqkBSke+mEYhyye1JWefz1h7LmQ/chG
+TZlDvL4CABphGBFzUUfthRess5Gci3p93CrF8uZtnIPlME0aW/hNyJHxDnV2CEbM
+WAFsXA1t6ZnNDGoMMaOzLn/Ybb3KJJGZ7vL1qKLd7dXyeLE/jccFX8+UVJF7Qmar
+/Lmv2sADYDxXbd3MvIRcgRzVc+V1xVxpSWIfEpWbw81za7jXiLQKRFM8DXUBtLp7
+99GQHDfD0soWOCjWOwIDAQABo4ICVTCCAlEwDgYDVR0PAQH/BAQDAgWgMBMGA1Ud
+JQQMMAoGCCsGAQUFBwMBMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFBZahO6kgF1P
+HhnScJtX5G3BZL5cMB8GA1UdIwQYMBaAFJjR+G4Q68+b7GCfGJAboOt9Cf0rMGQG
+CCsGAQUFBwEBBFgwVjAnBggrBgEFBQcwAYYbaHR0cDovL29jc3AucGtpLmdvb2cv
+Z3RzMW8xMCsGCCsGAQUFBzAChh9odHRwOi8vcGtpLmdvb2cvZ3NyMi9HVFMxTzEu
+Y3J0MBkGA1UdEQQSMBCCDnd3dy5nb29nbGUuY29tMCEGA1UdIAQaMBgwCAYGZ4EM
+AQICMAwGCisGAQQB1nkCBQMwLwYDVR0fBCgwJjAkoCKgIIYeaHR0cDovL2NybC5w
+a2kuZ29vZy9HVFMxTzEuY3JsMIIBBQYKKwYBBAHWeQIEAgSB9gSB8wDxAHcAsh4F
+zIuizYogTodm+Su5iiUgZ2va+nDnsklTLe+LkF4AAAFxv/AeHAAABAMASDBGAiEA
+0h0nuSqo7WjjgNmmPb49IXMAa/ZrEx03ctSoE//DCcwCIQCC0t0QqYDB6LUEX8gR
+gCZlGE1pSBDUhpffPxA06yz4YAB2AF6nc/nfVsDntTZIfdBJ4DJ6kZoMhKESEoQY
+dZaBcUVYAAABcb/wHjgAAAQDAEcwRQIgHVQThLp/imU/W9Fz9iV+S4pbEwSDOD/P
+W6KFc9zg9S0CIQDQ11B3TG83wareY4URVgdtRLeLrop0kUI6CD15b648JTANBgkq
+hkiG9w0BAQsFAAOCAQEAw9xKqMk+FCz8PRP3W9X556/up4uMQbdQ+fF12j44rdoM
+TT6PUeqvM3vPFhRRCX6cbQwRNITEXnuA5FY+QLIzsBWBZFVZKNgNWPsvXen+68xr
+LjA32pA1swXRhljCP1zilhHBVXjSgxShebl+CXNXFW/zSFg2BNTEBojtRylJZSdm
+hSbA8nHp5TeHwhYqPV+YiVM76t2wYu9pQwK6GrQordLq/v06cm6BzUUo6tzwFKcE
+uR2YzfJyHxaxbjpKJfmZrGKhwBHvu4Ojg/QLaVBTXje/wUlLQ241FW1XhTdmHwAc
+EhD3d5/5dHLc4ZhEnqv9lQHaakINjOtTpd47WExJuw==
+-----END CERTIFICATE-----
+subject=/C=US/ST=California/L=Mountain View/O=Google LLC/CN=www.google.com
+issuer=/C=US/O=Google Trust Services/CN=GTS CA 1O1
+---
+No client certificate CA names sent
+---
+SSL handshake has read 2925 bytes and written 467 bytes
+Verification: OK
+---
+New, SSLv3, Cipher is AES128-SHA
+Server public key is 2048 bit
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : AES128-SHA
+    Session-ID: A7E256C851950710F17B93A369C4A954B8B1ABB48F2CD3E9FE237B0A1F9C8B97
+    Session-ID-ctx: 
+    Master-Key: 303C47D73D0746E3FB5C7405AB84AD8581FF35466A63D7C22BC173A02B4EFA04C0D7AB42546CCE701F52A8E2405394F4
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 100800 (seconds)
+    TLS session ticket:
+    0000 - 01 fc ff 1a 46 6c 24 43-b7 bf 8a d4 a2 ec 32 1b   ....Fl$C......2.
+    0010 - 82 bd e9 fc cd d6 ed 12-3a 38 4c ec 5a 64 2f 6b   ........:8L.Zd/k
+    0020 - 13 a1 6a 9c c5 da 5e 3a-09 93 f0 68 09 02 dc 2f   ..j...^:...h.../
+    0030 - 5f 19 c3 1c 86 e1 9e 02-50 d1 9e 6d 50 70 3d 5e   _.......P..mPp=^
+    0040 - 7f a2 bd 85 68 84 09 a2-3f af 09 19 35 6a 77 ea   ....h...?...5jw.
+    0050 - b8 3d 5d 77 b7 64 50 6d-6d 0a e5 05 af 3a c5 98   .=]w.dPmm....:..
+    0060 - 11 94 16 51 02 d9 85 5a-69 e9 b5 8c f4 b8 08 64   ...Q...Zi......d
+    0070 - 3d 1a 70 2a 3a 09 bf 0d-0b 15 8c d3 32 72 8a a1   =.p*:.......2r..
+    0080 - 63 ff c5 3b 11 46 a9 01-5b 50 e0 67 ed 72 50 dc   c..;.F..[P.g.rP.
+    0090 - d9 83 b8 83 e8 b9 c5 37-8e bf 9c 7a 06 ff 9d 76   .......7...z...v
+    00a0 - 31 1f 26 cd 52 36 b0 05-da 13 09 7a 30 d3 1c 08   1.&.R6.....z0...
+    00b0 - 78 5f 65 a3 d0 27 d4 1c-45 bf 6b 16 be db 4f 25   x_e..'..E.k...O%
+    00c0 - 34 34 95 e4 a0 88 60 7b-1f eb 76 81 d1 91 5c ca   44....`{..v...\.
+    00d0 - a0 92 d2 b3 6f 21 55 13-db cc 23 19 66            ....o!U...#.f
+
+    Start Time: 1589683125
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: yes
+---
+KLEPTO engine DEBUG: klepto.c:173:cipher_aes_128_cbc_klepto_cipher(): se cifrará/decifrará vía cipher.
+KLEPTO engine DEBUG: klepto.c:184:cipher_aes_128_cbc_klepto_cipher(): klepto_ctx->iv = 857C8386C045861C17FCC65A8B89B953
+KLEPTO engine DEBUG: klepto.c:185:cipher_aes_128_cbc_klepto_cipher(): klepto_ctx->key = 5CE5E6B820110E603DB93FC6079247A5
+KLEPTO engine DEBUG: klepto.c:187:cipher_aes_128_cbc_klepto_cipher(): pre - entrada: 48 bytes.
+KLEPTO engine DEBUG: klepto.c:187:cipher_aes_128_cbc_klepto_cipher():  0: 68F7896A3894AF49690360E853ED7649
+KLEPTO engine DEBUG: klepto.c:187:cipher_aes_128_cbc_klepto_cipher():  1: 474554202F0A2C59227EF2AAB0DFC2AA
+KLEPTO engine DEBUG: klepto.c:187:cipher_aes_128_cbc_klepto_cipher():  2: FE5DB68B305E7AC35DF9050505050505
+KLEPTO engine DEBUG: klepto.c:188:cipher_aes_128_cbc_klepto_cipher(): pre - salida: 48 bytes.
+KLEPTO engine DEBUG: klepto.c:188:cipher_aes_128_cbc_klepto_cipher():  0: 68F7896A3894AF49690360E853ED7649
+KLEPTO engine DEBUG: klepto.c:188:cipher_aes_128_cbc_klepto_cipher():  1: 474554202F0A2C59227EF2AAB0DFC2AA
+KLEPTO engine DEBUG: klepto.c:188:cipher_aes_128_cbc_klepto_cipher():  2: FE5DB68B305E7AC35DF9050505050505
+KLEPTO engine DEBUG: klepto.c:192:cipher_aes_128_cbc_klepto_cipher(): se invoca para cifrado de 48 bytes.
+KLEPTO engine DEBUG: klepto.c:200:cipher_aes_128_cbc_klepto_cipher(): post - entrada: 48 bytes.
+KLEPTO engine DEBUG: klepto.c:200:cipher_aes_128_cbc_klepto_cipher():  0: 4F9A332A41F3FB37397D1BCFD28C4217
+KLEPTO engine DEBUG: klepto.c:200:cipher_aes_128_cbc_klepto_cipher():  1: 558CDF1F329562288B4D0AEE20FC7D01
+KLEPTO engine DEBUG: klepto.c:200:cipher_aes_128_cbc_klepto_cipher():  2: 142EE4F8E6CAE01CA845CA353762FBE7
+KLEPTO engine DEBUG: klepto.c:201:cipher_aes_128_cbc_klepto_cipher(): post - salida: 48 bytes.
+KLEPTO engine DEBUG: klepto.c:201:cipher_aes_128_cbc_klepto_cipher():  0: 4F9A332A41F3FB37397D1BCFD28C4217
+KLEPTO engine DEBUG: klepto.c:201:cipher_aes_128_cbc_klepto_cipher():  1: 558CDF1F329562288B4D0AEE20FC7D01
+KLEPTO engine DEBUG: klepto.c:201:cipher_aes_128_cbc_klepto_cipher():  2: 142EE4F8E6CAE01CA845CA353762FBE7
+KLEPTO engine DEBUG: klepto.c:173:cipher_aes_128_cbc_klepto_cipher(): se cifrará/decifrará vía cipher.
+KLEPTO engine DEBUG: klepto.c:184:cipher_aes_128_cbc_klepto_cipher(): klepto_ctx->iv = 142EE4F8E6CAE01CA845CA353762FBE7
+KLEPTO engine DEBUG: klepto.c:185:cipher_aes_128_cbc_klepto_cipher(): klepto_ctx->key = 5CE5E6B820110E603DB93FC6079247A5
+KLEPTO engine DEBUG: klepto.c:187:cipher_aes_128_cbc_klepto_cipher(): pre - entrada: 48 bytes.
+KLEPTO engine DEBUG: klepto.c:187:cipher_aes_128_cbc_klepto_cipher():  0: 003EEFD05A540E47F58AC43C80372257
+KLEPTO engine DEBUG: klepto.c:187:cipher_aes_128_cbc_klepto_cipher():  1: 0100BA02C373365DA87E1976FF92C498
+KLEPTO engine DEBUG: klepto.c:187:cipher_aes_128_cbc_klepto_cipher():  2: 600A860E46FF09090909090909090909
+KLEPTO engine DEBUG: klepto.c:188:cipher_aes_128_cbc_klepto_cipher(): pre - salida: 48 bytes.
+KLEPTO engine DEBUG: klepto.c:188:cipher_aes_128_cbc_klepto_cipher():  0: 003EEFD05A540E47F58AC43C80372257
+KLEPTO engine DEBUG: klepto.c:188:cipher_aes_128_cbc_klepto_cipher():  1: 0100BA02C373365DA87E1976FF92C498
+KLEPTO engine DEBUG: klepto.c:188:cipher_aes_128_cbc_klepto_cipher():  2: 600A860E46FF09090909090909090909
+KLEPTO engine DEBUG: klepto.c:192:cipher_aes_128_cbc_klepto_cipher(): se invoca para cifrado de 48 bytes.
+KLEPTO engine DEBUG: klepto.c:200:cipher_aes_128_cbc_klepto_cipher(): post - entrada: 48 bytes.
+KLEPTO engine DEBUG: klepto.c:200:cipher_aes_128_cbc_klepto_cipher():  0: A4CF1601117046EA23284DB8EE00C3D9
+KLEPTO engine DEBUG: klepto.c:200:cipher_aes_128_cbc_klepto_cipher():  1: 7454241A722366AD046A3755DBA5A8DA
+KLEPTO engine DEBUG: klepto.c:200:cipher_aes_128_cbc_klepto_cipher():  2: 01AFEFBB1FC42D8D7718AF80E5118B2D
+KLEPTO engine DEBUG: klepto.c:201:cipher_aes_128_cbc_klepto_cipher(): post - salida: 48 bytes.
+KLEPTO engine DEBUG: klepto.c:201:cipher_aes_128_cbc_klepto_cipher():  0: A4CF1601117046EA23284DB8EE00C3D9
+KLEPTO engine DEBUG: klepto.c:201:cipher_aes_128_cbc_klepto_cipher():  1: 7454241A722366AD046A3755DBA5A8DA
+KLEPTO engine DEBUG: klepto.c:201:cipher_aes_128_cbc_klepto_cipher():  2: 01AFEFBB1FC42D8D7718AF80E5118B2D
+KLEPTO engine DEBUG: klepto.c:208:cipher_aes_128_cbc_klepto_clean(): se invoca limpieza de cipher.
+KLEPTO engine DEBUG: klepto.c:208:cipher_aes_128_cbc_klepto_clean(): se invoca limpieza de cipher.
+KLEPTO engine DEBUG: klepto.c:222:klepto_destroy(): se invoca limpieza de engine.

@@ -1,0 +1,15 @@
+
+openssl_conf = openssl_def
+
+[openssl_def]
+engines = engine_section
+
+[engine_section]
+klepto = klepto_section
+
+[klepto_section]
+engine_id = klepto
+dynamic_path = /usr/lib/libklepto.so
+default_algorithms = ALL
+init = 1
+

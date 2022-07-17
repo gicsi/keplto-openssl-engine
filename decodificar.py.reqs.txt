@@ -1,0 +1,6 @@
+cffi==1.14.0
+cryptography==2.9.2
+pycparser==2.20
+pycrypto==2.6.1
+scapy==2.4.3
+six==1.15.0
